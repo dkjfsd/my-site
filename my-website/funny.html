@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>面白いページ！</title>
+  <style>
+    body {
+      background-color: lavender;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .card {
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>セイの面白い世界へようこそ！</h1>
+  </div>
+  <div class="card">こんにちは、セイです！</div>
+
+<style>
+.card {
+  width: 200px;
+  padding: 20px;
+  background-color: #fff8dc;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px #aaa;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #ffe4e1;
+  box-shadow: 4px 4px 20px #888;
+}
+</style>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
+<h1 class="typing">こんにちは、セイのページです！</h1>
+
+<style>
+.typing {
+  font-family: 'Courier New', monospace;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(25) forwards;
+  border-right: 2px solid #000;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 25ch }
+}
+</style>
+<div class="cat-face"></div>
+
+<style>
+.cat-face {
+  width: 100px;
+  height: 100px;
+  background: #fce4ec;
+  border-radius: 50%;
+  position: relative;
+  margin: 40px auto;
+}
+.cat-face::before, .cat-face::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  width: 40px;
+  height: 40px;
+  background: #fce4ec;
+  border-radius: 50%;
+}
+.cat-face::before {
+  left: -20px;
+  transform: rotate(-30deg);
+}
+.cat-face::after {
+  right: -20px;
+  transform: rotate(30deg);
+}
+</style>
+</body>
+</html>
